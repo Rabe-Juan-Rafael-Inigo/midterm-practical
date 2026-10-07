@@ -1,5 +1,135 @@
-<<<<<<< HEAD
-test
-=======
- test
->>>>>>> 9c6de57f17cec442925be34f58f73cad3ae5bcb9
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midterm Practical Exam</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="brand-logo">ProjectLogo</a>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#overview" class="nav-link">Overview</a></li>
+          <li><a href="#schedule" class="nav-link">Schedule</a></li>
+          <li><a href="#register" class="nav-link">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="overview" class="section">
+      <div class="container">
+        <h1>Midterm Practical Examination</h1>
+        <p>Welcome to the practical examination page demonstrating accessible, responsive, and semantic web design principles.</p>
+        
+        <div class="card-grid">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&auto=format&fit=crop&q=80" alt="Lines of code displayed on a computer screen" class="card-image">
+            <div class="card-body">
+              <h2>Semantic Structure</h2>
+              <p>Ensuring correct semantic landmarks enhances document scannability and screen reader accessibility.</p>
+              <a href="#schedule" class="btn btn-primary">View Schedule</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&auto=format&fit=crop&q=80" alt="Color palette swatches and web design materials" class="card-image">
+            <div class="card-body">
+              <h2>Design Systems</h2>
+              <p>CSS custom properties form design tokens for color, typography, and layout scales.</p>
+              <a href="#register" class="btn btn-secondary">Register Now</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule" class="section">
+      <div class="container">
+        <h2>Exam Session Schedule</h2>
+        <div class="table-wrapper">
+          <table class="data-table">
+            <caption>Upcoming examination rooms, time slots, and supervisor assignments.</caption>
+            <thead>
+              <tr>
+                <th scope="col">Session</th>
+                <th scope="col">Time</th>
+                <th scope="col">Location</th>
+                <th scope="col">Supervisor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Morning A</th>
+                <td>09:00 - 11:00</td>
+                <td>Lab 101</td>
+                <td>Prof. Smith</td>
+              </tr>
+              <tr>
+                <th scope="row">Morning B</th>
+                <td>11:30 - 13:30</td>
+                <td>Lab 102</td>
+                <td>Prof. Johnson</td>
+              </tr>
+              <tr>
+                <th scope="row">Afternoon A</th>
+                <td>14:30 - 16:30</td>
+                <td>Lab 101</td>
+                <td>Prof. Lee</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="register" class="section">
+      <div class="container">
+        <h2>Candidate Registration</h2>
+        <form action="#" method="post" class="registration-form">
+          <div class="form-group">
+            <label for="full-name">Full Name *</label>
+            <input type="text" id="full-name" name="full_name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="student-email">Student Email *</label>
+            <input type="email" id="student-email" name="student_email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="session-select">Select Session *</label>
+            <select id="session-select" name="session" required>
+              <option value="">-- Please select a session --</option>
+              <option value="morning-a">Morning A (09:00 - 11:00)</option>
+              <option value="morning-b">Morning B (11:30 - 13:30)</option>
+              <option value="afternoon-a">Afternoon A (14:30 - 16:30)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="comments">Additional Notes</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit Registration</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Practical Examination. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
